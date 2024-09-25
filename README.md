@@ -1,5 +1,5 @@
 # Will LLMs Replace the Encoder-Only Models in Temporal Relation Classification?
-***TL;TR***
+***TL;DR***
 We test the performance of LLMs in the Temporal Relation Classification task by using ICL and fine-tuning strategies. Then, we employ XAI techniques to understand why the RoBERTa-based model still outperforms LLMs. This analysis suggests the reason is the different pre-training tasks, i.e. masked language modelling vs causal language modelling. 
 
 ## Abstract
