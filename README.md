@@ -20,7 +20,10 @@ The automatic detection of temporal relations among events has been mainly inves
 
 ## Getting started
 The repository is organized into four folders, namely:
--   `data_formatter`:
--   `encoder_architecture`:
--   `ICL_and_FT`:
--   `XAI_analysis`:
+-   `data_formatter`: scripts and instructions for preprocessing and formatting the data for training and testing the models.
+-   `encoder_architecture`: scripts for running the experiments to reproduce the results with RoBERTa. Moreover, the same scripts can be used to perform the word embedding analysis.
+-   `ICL_and_FT`: scripts for reproducing the results of LLMs (Table 2 of the paper). In this, you can find the prompts that we designed  and the code for fine-tuning LLMs based on [LoRA](https://huggingface.co/docs/diffusers/training/lora).    
+-   `XAI_analysis`: scripts and pre-computed attribution scores used for yielding the explainability studies based on [KernelShap](https://captum.ai/api/kernel_shap.html).
+
+## Requirements
+The requirements are listed in the __requirements.txt__. You may have to install some additional packages though!
