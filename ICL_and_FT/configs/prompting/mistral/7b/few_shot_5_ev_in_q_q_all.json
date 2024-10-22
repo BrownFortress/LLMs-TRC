@@ -1,0 +1,21 @@
+{
+    "model_name": "mistralai/Mistral-7B-v0.1",
+    "use_best_examples": true,
+    "prompt": "",
+    "prompt_type": "questions_all",
+    "prompting": true,
+    "few_shots": 5,
+    "highlight_events": "in_sentence",
+    "ev_in_question": true,
+    "batch_size": null,
+    "test_batch_size": 1,
+    "patience": null,
+    "epochs": null,
+    "runs": 3,
+    "context": "sentence",
+    "init_weights": false,
+    "lr1": null,
+    "layers": [],
+    "cls_only": true,
+    "dual_optimizer": false
+}
