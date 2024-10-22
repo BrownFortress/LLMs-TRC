@@ -1,0 +1,15 @@
+{
+    "model_name": "roberta-large",
+    "batch_size": 8,
+    "patience": 5,
+    "epochs": 200,
+    "runs":5,
+    "init_weights":false,
+    "context": "sentence",
+    "desc": "word level, linear layer dual_optimizer",
+    "lr1": 1e-5,
+    "layers": [{"type":"linear", "in":2048, "out":3}],
+    "cls_only": false,
+    "dual_optimizer": false,
+    "frozen": true
+}

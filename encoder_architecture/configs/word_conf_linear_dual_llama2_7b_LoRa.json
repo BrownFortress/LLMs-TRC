@@ -1,0 +1,17 @@
+{
+    "model_name": "meta-llama/Llama-2-7b-hf",
+    "batch_size": 8,
+    "patience": 5,
+    "epochs": 30,
+    "runs":5,
+    "init_weights":false,
+    "context": "sentence",
+    "desc": "word level, linear layer dual_optimizer",
+    "lr1": 1e-4,
+    "lr2": 1e-4,
+    "layers": [{"type":"linear", "in":8192, "out":3}],
+    "cls_only": false,
+    "dual_optimizer": true,
+    "frozen":false,
+    "lora":{"alpha":32, "rank":16}
+}
