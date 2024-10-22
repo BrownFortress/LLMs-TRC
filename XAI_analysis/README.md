@@ -1,6 +1,6 @@
 # XAI Analysis
 
-This folder contains the files for running the explainability analysis on RoBERTa and LLama2 7B models. The `kernelShap.pkl` files contain the attribution score we computed. To compure the attribution score from scratch you can use the following scripts.
+This folder contains the files for running the explainability analysis on RoBERTa and LLama2 7B models. The `kernelShap.pkl` files contain the attribution scores we computed. The following scripts can be used to compute the attribution score from scratch.
 
 To run the analysis on LLama2 7B you can run the `*.sh` scripts:
 ```bash
